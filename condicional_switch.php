@@ -29,19 +29,38 @@
 /**
  * Ejercicio (SWITCH)
  * 
- * Se desea diseñar un programaque escriba los días de la semana en función del valor de una variable DIA
+ * Se desea diseñar un programaque escriba los días de la semana en función del valor de una variable DIA.
+ * 
+ * Los días de la semana son 7; por consiguiente, el rango de valores de DIA tome un valor fuera de este rango se deberá producir un mensaje de error advirtiendo la situación anómala.
  */
 
-    $fruta="Fresa";
 
-    switch($fruta){
-        case "Fresa":
-            echo "Eres una Fresa";
+
+    $dia=1;
+
+    switch($dia){
+        case 1:
+            echo "Lunes";
         break;
-        case "Pera":
-            echo "Eres una Pera";
+        case 2:
+            echo "Martes";
+        break;
+        case 3:
+            echo "Miercoles";
+        break;
+        case 4:
+            echo "Jueves";
+        break;
+        case 5:
+            echo "Viernes";
+        break;
+        case 6:
+            echo "Sabado";
+        break;
+        case 7:
+            echo "Domingo";
         break;
         default:
-            echo "No eres ni Fresa ni Pera";
+            echo "Introduce un valor valido";
 
     }
