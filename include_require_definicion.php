@@ -10,3 +10,18 @@
  * REQUIRE: Hace la misma operación que include, pero en caso de no existir el archivo o error en el mismo mostrará un 'fatal error' y el script no se sigue ejecutando.
  */
 
+/**
+ * 
+ *  include ("ruta_archivo.php");
+ *  include "ruta_archivo.php";
+ * 
+ *  include_once ("ruta_archivo.php");
+ *  include_once "ruta_archivo.php";
+ * 
+ * 
+ *  require ("ruta_archivo.php");
+ *  require "ruta_archivo.php";
+ * 
+ *  require_once ("ruta_archivo.php");
+ *  require_once "ruta_archivo.php";
+ */
